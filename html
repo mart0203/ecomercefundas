@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundas Rudo - Personalización</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .hero-section {
+            background-image: url('https://example.com/hero-image.jpg'); /* Coloca aquí la URL de una imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .hero-section h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .featured-products {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .product {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: white;
+        }
+
+        .product img {
+            width: 100px;
+            height: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Productos</a>
+            <a href="#">Personalización</a>
+            <a href="#">Pedidos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Fundas Personalizadas para Cualquier Situación</h1>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <div class="product">
+            <img src="https://example.com/funda1.jpg" alt="Funda con Batería Externa">
+            <h3>Funda con Batería Externa</h3>
+            <p>$899 MXN</p>
+            <a href="#" class="cta-button">Comprar Ahora</a>
+        </div>
+        <div class="product">
+            <img src="https://example.com/funda2.jpg" alt="Funda con Linterna">
+            <h3>Funda con Linterna</h3>
+            <p>$749 MXN</p>
+            <a href="#" class="cta-button">Comprar Ahora</a>
+        </div>
+        <div class="product">
+            <img src="https://example.com/funda3.jpg" alt="Funda con Bocina">
+            <h3>Funda con Bocina</h3>
+            <p>$999 MXN</p>
+            <a href="#" class="cta-button">Comprar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Fundas Rudo. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
